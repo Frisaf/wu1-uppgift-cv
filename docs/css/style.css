@@ -1,0 +1,32 @@
+main, body {
+    margin: 0;
+    padding: 0;
+    font-family: "Red Hat Display", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+main {
+    justify-items: center;
+    display: grid;
+}
+
+header {
+    background-color: black;
+    text-align: center;
+}
+
+hr {
+    width: 500px;
+}
+
+.container {
+    background-color: rgb(0, 73, 127);
+    color: white;
+    width: 75%;
+    align-self: center;
+}
+
+.textBox {
+    padding: 2rem;
+}
