@@ -9,17 +9,21 @@ main, body {
 main {
     justify-items: center;
     display: grid;
-    background: rgb(14,0,255);
+}
+
+body {
     background: linear-gradient(rgba(14,0,255,1) 0%, rgba(0,0,0,1) 13%, rgba(0,0,0,1) 87%, rgba(255,0,0,1) 100%);
 }
 
 header {
     background-color: black;
     text-align: center;
+    background-image: image-set("images/Anakin Skywalker logo dark mode")
 }
 
 hr {
-    width: 500px;
+    border-color:rgb(0, 127, 224);
+    margin-top: 0;
 }
 
 details {
@@ -33,8 +37,56 @@ details {
     color: white;
     width: 75%;
     align-self: center;
+    box-shadow: 0 0 40px 20px rgb(0, 92, 162);
 }
 
 .textBox {
     padding: 2rem;
+}
+
+.sidePanelMenu {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+}
+
+.sidePanelMenu a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidePanelMenu a:hover {
+    color: #f1f1f1;
+}
+
+.sidePanelMenu closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.openbtn {
+    font-size: 50px;
+    cursor: pointer;
+    background-color: transparent;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+}
+
+@media only screen and (max-width: 505px) {
+
 }

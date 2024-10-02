@@ -20,3 +20,6 @@ Skriv även sådant som du måste arbeta med nästa pass.
 
 1/10-24
 Jag gjorde skissen och började med HTML samt lite CSS.
+
+2/10-24
+Jag fortsatte med HTML och gjorde klart CSS. Jag skrev även lite Javascript för hamburgemenyn med hjälp av en tutorial från W3-Schools. Jag gjorde även en ny sida för application letter.
