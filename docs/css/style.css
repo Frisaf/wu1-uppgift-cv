@@ -2,7 +2,6 @@ main, body {
     margin: 0;
     padding: 0;
     font-family: "Red Hat Display", sans-serif;
-    font-optical-sizing: auto;
     font-style: normal;
 }
 
@@ -23,12 +22,6 @@ header {
 hr {
     border-color:rgb(0, 127, 224);
     margin-top: 0;
-}
-
-details {
-    p {
-        display: inline;
-    }
 }
 
 .container {
@@ -91,8 +84,17 @@ p.contactDetails {
     border: none;
 }
 
+.logo {
+    width: 40%;
+}
+
 @media only screen and (max-width: 1000px) {
-    header img {
-        width: 100%
+    .logo {
+        width: 100%;
     }
+}
+
+a {
+    color: white;
+    font-weight: bold;
 }
