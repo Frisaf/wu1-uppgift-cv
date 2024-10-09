@@ -27,6 +27,9 @@ Jag fortsatte med HTML och gjorde klart CSS. Jag skrev även lite Javascript fö
 8/10-24
 Jag fixade errors validator.nu och css validatorn hittade, och fixade errors som jag fick från Wave. Jag lade även till en about sida och en länk till GitHub repot i navbaren.
 
+9/10-24
+Bytte sida på navbaren, från vänster sida till höger sida.
+
 ## Utvärdering
 * **Vad har gått bra med HTML/CSS/MEDIA?**<br>
 Jag tycker det har gått bra att koda själva hemsidan och göra CSS:en. Jag har egentligen inte haft några större problem med webbsidan, utan allt har flytit på rätt så bra. Det jag tycker gick extra bra är formateringen på texten i index.html, där jag lyckades göra mindre text för årtalen och titlarna och göra så att det inte blev radbrytning efter ett nytt ```<p>``` element. Jag fick dock ändra ```<p>``` till ```<span>``` istället för att jag fick ett error när jag validerade min CSS-kod.
