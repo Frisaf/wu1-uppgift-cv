@@ -29,6 +29,16 @@ nav {
     justify-content: right;
 }
 
+footer img{
+    max-width: 100%;
+    width: 40%;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
 .container {
     background-color: rgb(0, 73, 127);
     color: white;
@@ -44,6 +54,7 @@ nav {
 
 p.contactDetails {
     line-height: normal;
+    font-size: 12px;
 }
 
 .sidePanelMenu {
@@ -90,6 +101,11 @@ p.contactDetails {
 
 .logo {
     width: 40%;
+}
+
+span.smallText {
+    color:lightgray;
+    font-size: smaller;
 }
 
 @media only screen and (max-width: 1000px) {
