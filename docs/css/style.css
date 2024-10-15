@@ -118,3 +118,60 @@ a {
     color: white;
     font-weight: bold;
 }
+
+/* :root {
+    --dark: #1d1c1b;
+    --light: #f2f0e4;
+    --orange: #d96b52;
+    --red: #d95e52;
+    --gray: #404e64;
+  
+    --color-primary-light: hsl(200, 100%, 76%);
+    --color-primary-light-transparent: hsla(343, 100%, 53%, 0.8);
+    --color-primary-dark: #00497f;
+    --color-primary-dark-transparent: hsla(343, 80%, 53%, 0.8);
+    --color-bg: var(--light);
+    --color-fg: var(--dark);
+    --color-primary: var(--color-primary-dark);
+    --color-primary-transparent: var(--color-primary-dark-transparent);
+    --cover-gradient: linear-gradient(
+      to right,
+      var(--color-fg),
+      var(--color-primary)
+    );
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --color-bg: var(--dark);
+      --color-fg: var(--light);
+      --color-primary: var(--color-primary-dark);
+      --color-primary-transparent: var(--color-primary-dark-transparent);
+      --cover-gradient: linear-gradient(
+        to right,
+        var(--color-primary),
+        var(--color-bg)
+      );
+    }
+  }
+  
+  html {
+    color-scheme: dark light;
+  }
+  body {
+    color: var(--color-fg);
+    background-color: var(--color-bg);
+  } */
+  
+  [data-theme="light"] {
+    body {
+        background: linear-gradient(rgba(14,0,255,1) 0%, rgb(255, 255, 255) 13%, rgb(255, 255, 255) 87%, rgba(255,0,0,1) 100%);
+    }
+
+    .container {
+        background-color: rgb(0, 73, 127);
+        color: white;
+        width: 75%;
+        align-self: center;
+        box-shadow: 0 0 40px 20px rgb(0, 92, 162);
+    }
+  }
