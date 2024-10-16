@@ -11,7 +11,7 @@ main {
 }
 
 body {
-    background: linear-gradient(rgba(14,0,255,1) 0%, rgba(0,0,0,1) 13%, rgba(0,0,0,1) 87%, rgba(255,0,0,1) 100%);
+    background: linear-gradient(rgba(14,0,255,1) 0%, #121212 13%, #121212 87%, rgba(255,0,0,1) 100%);
 }
 
 header {
@@ -37,6 +37,10 @@ footer img{
 footer {
     display: flex;
     justify-content: center;
+}
+
+svg {
+    fill: white;
 }
 
 .container {
@@ -108,6 +112,14 @@ span.smallText {
     font-size: smaller;
 }
 
+.modeButton {
+    background-color: transparent;
+    border: none;
+    font-size: xx-large;
+    color: white;
+    cursor: pointer;
+}
+
 @media only screen and (max-width: 1000px) {
     .logo {
         width: 100%;
@@ -164,14 +176,38 @@ a {
   
   [data-theme="light"] {
     body {
-        background: linear-gradient(rgba(14,0,255,1) 0%, rgb(255, 255, 255) 13%, rgb(255, 255, 255) 87%, rgba(255,0,0,1) 100%);
+        background: linear-gradient(rgb(101, 93, 255) 0%, #cae1f0 13%, #cae1f0 87%, rgb(254, 100, 100) 100%);
     }
 
     .container {
-        background-color: rgb(0, 73, 127);
-        color: white;
+        background-color: rgb(189, 226, 255);
+        color: #12205e;
         width: 75%;
         align-self: center;
-        box-shadow: 0 0 40px 20px rgb(0, 92, 162);
+        box-shadow: 0 0 40px 20px rgb(189, 226, 255);
+    }
+
+    span.smallText {
+        color: #12205e;
+        font-size: smaller;
     }
   }
+
+.darkIcon {
+    display: none;
+}
+.lightIcon {
+    display: block;
+}
+html[data-theme="dark"] .darkIcon {
+    display: block;
+}
+html[data-theme="dark"] .lightIcon {
+    display: none;
+}
+html[data-theme="light"] .darkIcon {
+    display: none;
+}
+html[data-theme="light"] .lightIcon {
+    display: block;
+}
