@@ -45,7 +45,7 @@ svg {
 
 .container {
     background-color: rgb(0, 73, 127);
-    color: white;
+    color: rgb(181, 214, 254);
     width: 75%;
     align-self: center;
     box-shadow: 0 0 40px 20px rgb(0, 92, 162);
@@ -176,7 +176,7 @@ a {
   
   [data-theme="light"] {
     body {
-        background: linear-gradient(rgb(101, 93, 255) 0%, #cae1f0 13%, #cae1f0 87%, rgb(254, 100, 100) 100%);
+        background: linear-gradient(rgb(101, 93, 255) 0%, #b0cbdd 13%, #b0cbdd 87%, rgb(254, 100, 100) 100%);
     }
 
     .container {
