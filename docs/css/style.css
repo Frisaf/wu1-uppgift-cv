@@ -154,6 +154,12 @@ a {
         color: #12205e;
         font-size: smaller;
     }
+
+    @media only screen and (max-width: 1000px) {
+        .container {
+            width: 100%
+        }
+    }
   }
 
 .darkIcon {
