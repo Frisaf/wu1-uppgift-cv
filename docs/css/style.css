@@ -133,7 +133,7 @@ span.smallText {
 }
 
 a {
-    color: white;
+    color: inherit;
     font-weight: bold;
 }
   
@@ -153,12 +153,24 @@ a {
     span.smallText {
         color: #12205e;
         font-size: smaller;
-    }
+    }   
 
     @media only screen and (max-width: 1000px) {
         .container {
             width: 100%
         }
+    }
+
+    .sidePanelMenu {
+        background-color: rgb(230, 229, 229);
+    }
+
+    .sidePanelMenu a {
+        color: rgb(12, 12, 12);
+    }
+
+    .sidePanelMenu a:hover {
+        color: rgb(100, 100, 100);
     }
   }
 
