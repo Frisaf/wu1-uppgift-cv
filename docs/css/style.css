@@ -3,6 +3,7 @@ main, body {
     padding: 0;
     font-family: "Red Hat Display", sans-serif;
     font-style: normal;
+    font-size: 1.1rem
 }
 
 main {
@@ -49,11 +50,14 @@ svg {
     width: 75%;
     align-self: center;
     box-shadow: 0 0 40px 20px rgb(0, 92, 162);
+    display: grid;
+    justify-items: center;
 }
 
 .textBox {
     padding: 2rem;
     line-height: 2rem;
+    width: 50%
 }
 
 p.contactDetails {
