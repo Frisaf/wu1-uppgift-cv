@@ -33,6 +33,9 @@ Bytte sida på navbaren, från vänster sida till höger sida.
 15/10-24
 Lade till en bild längst ned på sidan och ändrade all inline css till en klass istället.
 
+15/10-24 - 19/10-24
+Implementerade light mode för hemsidan som man kan byta till med en knapp, och som sparar vilken inställning man valt med local memory.
+
 ## Utvärdering
 * **Vad har gått bra med HTML/CSS/MEDIA?**<br>
 Jag tycker det har gått bra att koda själva hemsidan och göra CSS:en. Jag har egentligen inte haft några större problem med webbsidan, utan allt har flytit på rätt så bra. Det jag tycker gick extra bra är formateringen på texten i index.html, där jag lyckades göra mindre text för årtalen och titlarna och göra så att det inte blev radbrytning efter ett nytt ```<p>``` element. Jag fick dock ändra ```<p>``` till ```<span>``` istället för att jag fick ett error när jag validerade min CSS-kod.
@@ -57,7 +60,10 @@ Jag tycker det skulle vara intressant att lära sig mer om Javascript när det k
     Jag tog bort det från koden.
     * Parse Error p { display: inline; }<br>
     Detta error uppkom för alla ```<p>```-element inuti ```<details>```, eftersom jag inte ville ha line break på dessa. Jag fixade detta error genom att byta ut alla ```<p>```-element inuti ```<details>``` till ```<span>``` som har ```display: inline``` som standard.<br>
-*Sist men inte minst använde jag Wave för att se om sidan hade några andra errors:*
+
+    Jag fick även *Parse Error* när jag försökte validera min light mode CSS, men Jens sa att jag kunde strunta i det eftersom funktionen stöds i alla moderna webbläsare.
+
+    *Sist men inte minst använde jag Wave för att se om sidan hade några andra errors:*
     * Min alt-text fick inte innehålla ord som "image" och "logo".<br>
     Eftersom min alt-text endast innehöll ordet "image" i början kunde jag bara ta bort detta för att undvika detta error.
     * Sidan för application letter hade ingen heading.<br>
