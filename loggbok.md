@@ -36,6 +36,9 @@ Lade till en bild längst ned på sidan och ändrade all inline css till en klas
 15/10-24 - 19/10-24
 Implementerade light mode för hemsidan som man kan byta till med en knapp, och som sparar vilken inställning man valt med local memory.
 
+22/10-24
+Smalnade av .textBox-klassen så att den skulle trycka ihop texten. Nu är den enklare att läsa, eftersom den följer regeln om max 80 tecken per rad. Jag gjorde även så att .textBox blir bredare om skärmen är smalare än 790px, för att den annars skulle vara alldeles för smal för att vara läsbar.
+
 ## Utvärdering
 * **Vad har gått bra med HTML/CSS/MEDIA?**<br>
 Jag tycker det har gått bra att koda själva hemsidan och göra CSS:en. Jag har egentligen inte haft några större problem med webbsidan, utan allt har flytit på rätt så bra. Det jag tycker gick extra bra är formateringen på texten i index.html, där jag lyckades göra mindre text för årtalen och titlarna och göra så att det inte blev radbrytning efter ett nytt ```<p>``` element. Jag fick dock ändra ```<p>``` till ```<span>``` istället för att jag fick ett error när jag validerade min CSS-kod.
