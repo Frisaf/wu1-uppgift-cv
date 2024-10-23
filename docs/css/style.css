@@ -124,7 +124,6 @@ span.smallText {
 }
 
 .stickyRight {
-    position: -webkit-sticky;
     position: fixed;
     top: 20px;
     justify-self: right;
@@ -138,7 +137,6 @@ span.smallText {
 }
 
 .stickyLeft {
-    position: -webkit-sticky;
     position: fixed;
     top: 20px;
     justify-self: left;
