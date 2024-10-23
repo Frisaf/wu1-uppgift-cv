@@ -47,17 +47,16 @@ svg {
 .container {
     background-color: rgb(0, 73, 127);
     color: rgb(181, 214, 254);
-    width: 75%;
+    width: 45%;
     align-self: center;
     box-shadow: 0 0 40px 20px rgb(0, 92, 162);
-    display: grid;
-    justify-items: center;
+    /* display: grid;
+    justify-items: center; */
 }
 
 .textBox {
     padding: 2rem;
     line-height: 2rem;
-    width: 50%
 }
 
 p.contactDetails {
@@ -108,7 +107,7 @@ p.contactDetails {
   }
 
 .logo {
-    width: 40%;
+    width: 60%;
 }
 
 span.smallText {
@@ -124,6 +123,34 @@ span.smallText {
     cursor: pointer;
 }
 
+.stickyRight {
+    position: -webkit-sticky;
+    position: fixed;
+    top: 20px;
+    justify-self: right;
+    margin-top: 50px;
+    display: grid;
+    justify-items: center;
+}
+
+.stickyRight img {
+    width: 50%;
+}
+
+.stickyLeft {
+    position: -webkit-sticky;
+    position: fixed;
+    top: 20px;
+    justify-self: left;
+    margin-top: 50px;
+    display: grid;
+    justify-items: center;
+}
+
+.stickyLeft img {
+    width: 50%;
+}
+
 @media only screen and (max-width: 1000px) {
     .logo {
         width: 100%;
@@ -136,9 +163,15 @@ span.smallText {
     }
 }
 
-@media only screen and (max-width: 790px) {
-    .textBox {
-        width: 80%;
+@media only screen and (max-width: 1000px) {
+    .stickyRight {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .stickyLeft {
+        display: none;
     }
 }
 
@@ -155,8 +188,6 @@ a {
     .container {
         background-color: rgb(189, 226, 255);
         color: #12205e;
-        width: 75%;
-        align-self: center;
         box-shadow: 0 0 40px 20px rgb(189, 226, 255);
     }
 
